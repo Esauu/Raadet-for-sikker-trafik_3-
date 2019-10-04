@@ -13,30 +13,34 @@ img {
 
 header {
     background-color: #28292C;
-    height: 40px;
+    height: 80px;
 }
 
-header img {
+header .logo {
     height: 40px;
     width: 100px;
     top 0;
 }
 
-header nav button {
-    background-color: #373D46;
-    height: 30px;
-    width: 30%;
-    position: sticky;
+header .knapper {
+    min-width: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 10px;
+    color: black;
 }
 
 #splash {
     width: 100%;
     height: 60vh;
     background-color: black;
+
 }
 
+
 #splash img {
-    height: 55vh;
+    height: 60vh;
 }
 
 #splash p {
@@ -80,13 +84,12 @@ header nav button {
 }
 
 #SoMe_kampagne .img {
-    width: 1000px;
-    height: 200px;
+    width: 50vh;
+    height: 33vh;
     background-color: blue;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+
 
 }
 
@@ -107,3 +110,74 @@ footer {
     height: 160px;
     background-color: silver;
 }
+
+
+/*  SER PÅ DET SENERE
+
+  @media only screen and (min-width: 600px) {
+            .burgermenu {}
+            .container {
+                position: relative;
+                width: 100%;
+                margin: 10px;
+            }
+        }
+        @media only screen and (min-width: 800px) {
+            .logo {
+                width: 10%;
+                top: -30px;
+                position: absolute;
+                left: 16.5px;
+            }
+            .container img {
+                width: 100%;
+            }
+            .burgermenu {
+                display: none;
+            }
+            #menuMobil {
+                display: none;
+            }
+            .mySlides {
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .data-container {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 300px 300px;
+            }
+            main {
+                margin: 0 auto;
+            }
+            #menu-sidebar {
+                display: none;
+            }
+            nav button {
+                min-width: 100px;
+                margin: 0 auto;
+                font-size: 15px;
+                margin-left: 8px;
+                margin-right: 8px;
+                color: white;
+            }
+        }
+        @media screen and (min-width:760px) {
+            menu-sidebar {
+                display: block;
+            }
+        }
+        @media screen and (min-width:960px) {
+            .data-container {
+                grid-template-columns: repeat(2, 1fr);
+                grid
+            }
+            nav button {
+                min-width: 150px;
+                margin: 0 auto;
+                font-size: 33px;
+                margin-left: 20px;
+                margin-right: 20px;
+                color: white;
+            }
+        } /*
