@@ -51,9 +51,7 @@ header .knapper {
     width: 100%;
     height: 60vh;
     background-color: black;
-
 }
-
 
 #splash img {
     height: 60vh;
@@ -61,20 +59,29 @@ header .knapper {
 
 #splash p {
     color: white;
+    position: relative;
+    top: -90px;
+    left: 5em;
+    max-width: 400px;
 }
 
 
+#info1 {
+    padding-left: 5em;
+    max-width: 60em;
+}
+
 #video {
     width: 100%;
-    height: 50vh;
+    height: 95vh;
     background-color: crimson;
 }
 
 #video .player {
     padding: 20px;
+    display: flex;
+    align-items: center;
 }
-
-#info1 {}
 
 #info2 {
     width: auto;
