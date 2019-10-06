@@ -79,8 +79,7 @@ header .knapper {
 
 #video .player {
     padding: 20px;
-    display: flex;
-    align-items: center;
+
 }
 
 #info2 {
@@ -90,16 +89,16 @@ header .knapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 6rem;
-    padding: 0 4rem 0 4rem;
+    padding: 6rem 4rem 6rem 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#info2 .img {
+#info2 .text {
     border: dotted;
 }
 
-#info2 .text {
+#info2 .img {
     border: dotted;
 }
 
@@ -127,9 +126,13 @@ header .knapper {
     padding: 0 4rem 0 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
 }
 
-#info3 .text {}
+#info3 .text {
+    padding: 5px;
+    max-width: 60em;
+}
 
 
 footer {
