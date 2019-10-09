@@ -65,8 +65,8 @@ header .knapper {
 #splash p {
     color: white;
     position: relative;
-    top: -90px;
-    left: 5em;
+    top: -4rem;
+    left: 1rem;
     max-width: 400px;
 }
 
@@ -74,6 +74,7 @@ header .knapper {
 #info1 {
     padding-left: 1rem;
     max-width: 60em;
+
 
 }
 
@@ -91,9 +92,12 @@ header .knapper {
 
 #info2 {
     width: 100%;
-    background: blue;
+    background: lightblue;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 1rem;
+
+
 
 
 
@@ -106,8 +110,13 @@ header .knapper {
 
 }
 
+#info2 h2 {
+    margin-top: 0;
+
+}
+
 .kampagne {
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     font-size: 2rem;
     margin-bottom: 0.5rem;
     ;
@@ -118,29 +127,30 @@ header .knapper {
 
 
 #SoMe_kampagne {
-    width: 100%;
-    height: 40vh;
-    background-color: peachpuff;
+    background: darkgreen;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
 
 }
 
-#SoMe_kampagne .img {
-    width: 50vh;
-    height: 33vh;
-    background-color: blue;
-    margin-left: auto;
-    margin-right: auto;
 
 
+#SoMe_kampagne h1 {
+    padding-bottom: 1rem;
+    margin: 0;
 }
+
+#SoMe_kampagne img {
+    width: 28rem;
+    height: 18rem;
+}
+
 
 #info3 {
-    width: auto;
-    height: 30vh;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: limegreen;
-    padding: 0 4rem 0 4rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
 
 }
 
