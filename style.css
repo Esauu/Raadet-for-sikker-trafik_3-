@@ -103,22 +103,14 @@ header .knapper {
 
 }
 
-#info2 img {
-    width: 38rem;
-    height: 18rem;
 
-
-}
 
 #info2 h2 {
-    width: 38rem;
     margin-top: 0;
 
 }
 
-#info2 p {
-    width: 38rem;
-}
+
 
 .kampagne {
     padding: 1rem 1rem 0rem 1rem;
@@ -146,10 +138,7 @@ header .knapper {
     margin: 0;
 }
 
-#SoMe_kampagne img {
-    width: 28rem;
-    height: 18rem;
-}
+
 
 
 #info3 {
