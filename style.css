@@ -86,6 +86,10 @@ header .knapper {
 #info1 {
     padding-left: 1rem;
     max-width: 100em;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 
 
 }
@@ -103,6 +107,10 @@ header .knapper {
 }
 
 #info2 {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     max-width: 100em;
     background: lightblue;
     padding-left: 1rem;
@@ -125,6 +133,10 @@ header .knapper {
 
 
 .kampagne {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: 1rem 1rem 0rem 1rem;
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -136,6 +148,10 @@ header .knapper {
 
 
 #SoMe_kampagne {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     background: darkgreen;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -154,6 +170,10 @@ header .knapper {
 
 
 #info3 {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: 1rem 1rem 1rem 1rem;
     background-color: limegreen;
 
