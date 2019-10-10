@@ -10,6 +10,17 @@ img {
     width: 100%;
 }
 
+@font-face {
+    font-family: Safety;
+    src: url(safety.oft);
+}
+
+@font-face {
+    font-family: Safety;
+    src: url(safety-light.oft);
+    font-weight: lighter;
+}
+
 
 header {
     background-color: #28292C;
@@ -23,6 +34,7 @@ header .logo {
     top: 1em;
     left: 1rem;
 }
+
 
 header .knapper {
     position: relative;
