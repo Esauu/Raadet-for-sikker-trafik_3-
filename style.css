@@ -189,6 +189,9 @@ header .knapper {
 /*Gode råd diagrammer*/
 .containerkage {
     width: 20vw;
+    padding-left: 35vw;
+    padding-right: 35vw;
+
 
 }
 
@@ -249,8 +252,12 @@ header .knapper {
 /*Søjlediagram*/
 
 .containersoj {
-    width: 30vw;
+    width: 90vw;
 
+}
+
+#dispp {
+    font-family: safety;
 }
 
 #linier {
@@ -269,8 +276,12 @@ header .knapper {
 }
 
 #containerrsoj {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+
 }
 
 #soj1 {
@@ -300,17 +311,21 @@ header .knapper {
 .txt1 {
     color: #00FF00;
     font-size: 3em;
+    margin-top: 0;
 
 }
 
 .txt2 {
     color: #28292C;
     font-size: 3em;
+    margin-top: 0;
+
 }
 
 .txt3 {
     color: #305898;
     font-size: 3em;
+    margin: 0;
 }
 
 /*Søjlediagram slut*/
