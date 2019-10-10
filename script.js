@@ -31,3 +31,18 @@ function animer() {
         })
     })
 }
+
+const value = [24.5, 28, 47.5];
+
+/*Her lavesnoget der minder om et array*/
+document.querySelectorAll("#bars line").forEach((bar, i) => {
+    console.log(bar, i);
+    bar.setAttribute("y2", 100 - value[i]);
+    bar.addEventListener("mouseover", e => {
+
+        document.querySelector("#dispp").textContent = value[i] + "%";
+
+        bar.setAttribute("data-value", value[i])
+        console.log(bar.dataset.value)
+    })
+})

@@ -167,8 +167,7 @@ header .knapper {
 
 
 /*Gode råd diagrammer*/
-#containerkage {
-    display: flex;
+.containerkage {
     width: 20vw;
 
 }
@@ -226,6 +225,75 @@ header .knapper {
 
 
 /*Gode råd diagrammer slut*/
+
+/*Søjlediagram*/
+
+.containersoj {
+    width: 30vw;
+
+}
+
+#linier {
+    stroke: #999;
+    stroke-width: .5;
+}
+
+#textsoj {
+    font-size: .5em;
+
+}
+
+#bars {
+
+    stroke-width: 20;
+}
+
+#containerrsoj {
+    display: flex;
+    justify-content: center;
+}
+
+#soj1 {
+    stroke: #00FF00;
+}
+
+#soj1:hover {
+    opacity: 0.5;
+}
+
+#soj2 {
+    stroke: #28292C;
+}
+
+#soj2:hover {
+    opacity: 0.5;
+}
+
+#soj3 {
+    stroke: #305898;
+}
+
+#soj3:hover {
+    opacity: 0.5;
+}
+
+.txt1 {
+    color: #00FF00;
+    font-size: 3em;
+
+}
+
+.txt2 {
+    color: #28292C;
+    font-size: 3em;
+}
+
+.txt3 {
+    color: #305898;
+    font-size: 3em;
+}
+
+/*Søjlediagram slut*/
 
 
 
