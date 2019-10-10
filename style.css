@@ -175,7 +175,7 @@ header .knapper {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     padding: 1rem 1rem 1rem 1rem;
-    background-color: limegreen;
+    background-color: #EAEAEA;
 
 
 }
@@ -184,6 +184,138 @@ header .knapper {
     padding: 5px;
     max-width: 60em;
 }
+
+
+/*Gode råd diagrammer*/
+.containerkage {
+    width: 20vw;
+
+}
+
+#diagramkage {
+    fill: none;
+    stroke-width: 100;
+    border-radius: 50%;
+    border: 1px solid;
+
+}
+
+#stk1 {
+    stroke: #00FF00;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+
+}
+
+#disp {
+    font-size: 2em;
+    font-family: safety;
+}
+
+#stk2 {
+    stroke: #28292C;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+}
+
+#stk3 {
+    stroke: #3b475a;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+}
+
+#text {
+    fill: white;
+    font-size: 4px;
+    font-family: sans-serif;
+}
+
+#stk1:hover {
+    opacity: 0.5;
+}
+
+#stk2:hover {
+    opacity: 0.5;
+}
+
+#stk3:hover {
+    opacity: 0.5;
+}
+
+
+
+/*Gode råd diagrammer slut*/
+
+/*Søjlediagram*/
+
+.containersoj {
+    width: 30vw;
+
+}
+
+#linier {
+    stroke: #999;
+    stroke-width: .5;
+}
+
+#textsoj {
+    font-size: .5em;
+
+}
+
+#bars {
+
+    stroke-width: 20;
+}
+
+#containerrsoj {
+    display: flex;
+    justify-content: center;
+}
+
+#soj1 {
+    stroke: #00FF00;
+}
+
+#soj1:hover {
+    opacity: 0.5;
+}
+
+#soj2 {
+    stroke: #28292C;
+}
+
+#soj2:hover {
+    opacity: 0.5;
+}
+
+#soj3 {
+    stroke: #305898;
+}
+
+#soj3:hover {
+    opacity: 0.5;
+}
+
+.txt1 {
+    color: #00FF00;
+    font-size: 3em;
+
+}
+
+.txt2 {
+    color: #28292C;
+    font-size: 3em;
+}
+
+.txt3 {
+    color: #305898;
+    font-size: 3em;
+}
+
+/*Søjlediagram slut*/
+
+
 
 
 footer {
