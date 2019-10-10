@@ -73,7 +73,7 @@ header .knapper {
 
 #info1 {
     padding-left: 1rem;
-    max-width: 60em;
+    max-width: 100em;
 
 
 }
@@ -91,7 +91,7 @@ header .knapper {
 }
 
 #info2 {
-    width: 100%;
+    max-width: 100em;
     background: lightblue;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -104,15 +104,20 @@ header .knapper {
 }
 
 #info2 img {
-    width: 28rem;
+    width: 38rem;
     height: 18rem;
 
 
 }
 
 #info2 h2 {
+    width: 38rem;
     margin-top: 0;
 
+}
+
+#info2 p {
+    width: 38rem;
 }
 
 .kampagne {
