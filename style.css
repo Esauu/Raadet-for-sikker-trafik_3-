@@ -155,7 +155,7 @@ header .knapper {
 
 #info3 {
     padding: 1rem 1rem 1rem 1rem;
-    background-color: limegreen;
+    background-color: #EAEAEA;
 
 
 }
@@ -164,6 +164,70 @@ header .knapper {
     padding: 5px;
     max-width: 60em;
 }
+
+
+/*Gode råd diagrammer*/
+#containerkage {
+    display: flex;
+    width: 20vw;
+
+}
+
+#diagramkage {
+    fill: none;
+    stroke-width: 100;
+    border-radius: 50%;
+    border: 1px solid;
+
+}
+
+#stk1 {
+    stroke: #00FF00;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+
+}
+
+#disp {
+    font-size: 2em;
+    font-family: safety;
+}
+
+#stk2 {
+    stroke: #28292C;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+}
+
+#stk3 {
+    stroke: #3b475a;
+    transition: 1s;
+    stroke-dasharray: 1 314;
+}
+
+#text {
+    fill: white;
+    font-size: 4px;
+    font-family: sans-serif;
+}
+
+#stk1:hover {
+    opacity: 0.5;
+}
+
+#stk2:hover {
+    opacity: 0.5;
+}
+
+#stk3:hover {
+    opacity: 0.5;
+}
+
+
+
+/*Gode råd diagrammer slut*/
+
+
 
 
 footer {
