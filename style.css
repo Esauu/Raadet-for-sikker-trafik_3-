@@ -15,6 +15,12 @@ p {
     font-weight: lighter;
 }
 
+h1,
+h2 {
+    font-family: safety;
+    font-weight: lighter;
+}
+
 @font-face {
     font-family: Safety;
     src: url(safety.oft);
@@ -125,6 +131,16 @@ header .knapper {
 
 }
 
+.SoMe img {
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+.SoMe img:hover {
+    transform: scale(1.2);
+}
+
 
 
 #video {
@@ -139,7 +155,7 @@ header .knapper {
 
 #info2 {
     max-width: 100em;
-    background: lightblue;
+    background: #414B59;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
@@ -150,10 +166,13 @@ header .knapper {
 
 }
 
-
+#info2 p {
+    color: white;
+}
 
 #info2 h2 {
     margin-top: 0;
+    color: white;
 
 }
 
@@ -273,7 +292,7 @@ header .knapper {
 footer {
     width: auto;
     height: 160px;
-    background-color: silver;
+    background-color: #373D46;
 }
 
 
