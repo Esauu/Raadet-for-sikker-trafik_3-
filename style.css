@@ -154,22 +154,27 @@ header .knapper {
 
 
 #info3 {
+    display: flex;
     padding: 1rem 1rem 1rem 1rem;
     background-color: #EAEAEA;
 
 
 }
 
+#info3 #info3 .right {
+    flex-grow: 1;
+}
+
 #info3 .text {
+
     padding: 5px;
     max-width: 60em;
 }
 
 
 /*Gode råd diagrammer*/
-#containerkage {
-    display: flex;
-    width: 20vw;
+.containerkage {
+    max-width: 50px;
 
 }
 
