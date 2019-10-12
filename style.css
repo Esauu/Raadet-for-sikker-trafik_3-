@@ -10,6 +10,11 @@ img {
     width: 100%;
 }
 
+p {
+    font-family: safety;
+    font-weight: lighter;
+}
+
 @font-face {
     font-family: Safety;
     src: url(safety.oft);
@@ -77,9 +82,39 @@ header .knapper {
 #splash p {
     color: white;
     position: relative;
+    /*
     top: -4rem;
     left: 1rem;
+*/
     max-width: 400px;
+}
+
+#splash .boks {
+    padding: 0.1rem 1rem 1rem 1rem;
+    position: relative;
+    top: -6rem;
+    left: 1rem;
+    background: black;
+    width: 70vw;
+    height: 10vw;
+    opacity: 0.5
+}
+
+/** SPLASH TEKST ANIMATION **/
+
+.swipe {
+    animation-name: splash_kf;
+    animation-duration: 2s;
+}
+
+@keyframes splash_kf {
+    from {
+        left: -100rem;
+    }
+
+    to {
+        left: 0.5rem;
+    }
 }
 
 
@@ -251,6 +286,11 @@ footer {
                 width: 100%;
                 margin: 10px;
             }
+        #splash .boks {
+        width: 40vw;
+        height: 4vw;
+
+}
         }
         @media only screen and (min-width: 800px) {
             .logo {
