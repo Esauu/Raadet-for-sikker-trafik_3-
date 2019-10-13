@@ -9,6 +9,8 @@ console.log(omkreds, total, faktor);
 
 window.addEventListener("load", animer);
 
+
+
 function animer() {
 
     document.querySelectorAll("#diagramkage circle").forEach((cirkel, i) => {

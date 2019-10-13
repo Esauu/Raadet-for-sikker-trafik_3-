@@ -13,6 +13,7 @@ img {
 p {
     font-family: safety;
     font-weight: lighter;
+    font-size: 20px;
 }
 
 h1,
@@ -38,6 +39,7 @@ header {
     height: 60px;
 }
 
+/*FIND DET HVIDE LOGO*/
 header .logo {
     height: 30px;
     width: 180px;
@@ -76,22 +78,14 @@ header .knapper {
 }
 
 #splash {
-    width: 100%;
-    height: 60vh;
-    background-color: black;
+    display: none;
 }
 
-#splash img {
-    height: 60vh;
-}
 
 #splash p {
     color: white;
     position: relative;
-    /*
-    top: -4rem;
-    left: 1rem;
-*/
+
     max-width: 400px;
 }
 
@@ -127,13 +121,23 @@ header .knapper {
 #info1 {
     padding-left: 1rem;
     max-width: 100em;
+}
 
+#info1 .text {
+    display: grid;
+    max-width: 40em;
+}
+
+.SoMe {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
 
 }
 
 .SoMe img {
-    width: 5vw;
-    height: 5vw;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -144,7 +148,6 @@ header .knapper {
 
 
 #video {
-
     background-color: lightgray;
 
 }
@@ -159,11 +162,6 @@ header .knapper {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
-
-
-
-
-
 }
 
 #info2 p {
@@ -182,7 +180,6 @@ header .knapper {
     padding: 1rem 1rem 0rem 1rem;
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    ;
 
 
 }
@@ -288,6 +285,7 @@ header .knapper {
 
 
 
+/**/
 
 footer {
     width: auto;
@@ -296,77 +294,21 @@ footer {
 }
 
 
-/*  SER PÅ DET SENERE
+/*             TAPLET          */
 
-  @media only screen and (min-width: 600px) {
-            .burgermenu {}
-            .container {
-                position: relative;
-                width: 100%;
-                margin: 10px;
-            }
-        #splash .boks {
-        width: 40vw;
-        height: 4vw;
+@media screen and (min-width:760px) {
+    #splash {
+        display: block;
+        width: 100%;
+        height: 60vh;
+    }
+
+    #splash img {
+        height: 60vh;
+    }
 
 }
-        }
-        @media only screen and (min-width: 800px) {
-            .logo {
-                width: 10%;
-                top: -30px;
-                position: absolute;
-                left: 16.5px;
-            }
-            .container img {
-                width: 100%;
-            }
-            .burgermenu {
-                display: none;
-            }
-            #menuMobil {
-                display: none;
-            }
-            .mySlides {
-                margin: 0 auto;
-            }
-        }
-        @media screen and (max-width:600px) {
-            .data-container {
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: 300px 300px;
-            }
-            main {
-                margin: 0 auto;
-            }
-            #menu-sidebar {
-                display: none;
-            }
-            nav button {
-                min-width: 100px;
-                margin: 0 auto;
-                font-size: 15px;
-                margin-left: 8px;
-                margin-right: 8px;
-                color: white;
-            }
-        }
-        @media screen and (min-width:760px) {
-            menu-sidebar {
-                display: block;
-            }
-        }
-        @media screen and (min-width:960px) {
-            .data-container {
-                grid-template-columns: repeat(2, 1fr);
-                grid
-            }
-            nav button {
-                min-width: 150px;
-                margin: 0 auto;
-                font-size: 33px;
-                margin-left: 20px;
-                margin-right: 20px;
-                color: white;
-            }
-        } /*
+
+/*            DESKTOP              */
+
+@media screen and (min-width:960px) {}
