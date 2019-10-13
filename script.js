@@ -11,6 +11,7 @@ window.addEventListener("load", animer);
 
 
 
+
 function animer() {
 
     document.querySelectorAll("#diagramkage circle").forEach((cirkel, i) => {
@@ -22,29 +23,26 @@ function animer() {
     })
 
     document.querySelectorAll("#diagramkage circle").forEach((bar, i) => {
-        console.log(bar, i);
         bar.setAttribute("y2", 100 - values[i]);
         bar.addEventListener("mouseover", e => {
 
             document.querySelector("#disp").textContent = values[i] + " uheld";
 
             bar.setAttribute("data-value", values[i])
-            console.log(bar.dataset.value)
+
         })
     })
 }
 
-const value = [24.5, 28, 47.5];
+const values1 = [23, 48, 87, 70, 14, 65]
 
-/*Her lavesnoget der minder om et array*/
 document.querySelectorAll("#bars line").forEach((bar, i) => {
-    console.log(bar, i);
-    bar.setAttribute("y2", 100 - value[i]);
+
+    bar.setAttribute("y2", 100 - values1[i])
     bar.addEventListener("mouseover", e => {
 
-        document.querySelector("#dispp").textContent = value[i] + "%";
+        document.querySelector("#disp").textContent = values1[i];
 
-        bar.setAttribute("data-value", value[i])
-        console.log(bar.dataset.value)
+        bar.setAttribute("data-value", values1[i])
     })
 })

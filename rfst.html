@@ -29,7 +29,7 @@
     </div>
     <div id="splash"> <img src="img/splash_desk.png">
         <div class="boks swipe">
-            <p>Fart er den største dræber i trafikken, og ulykkerne sker ofte ved de små hastighedsoverskridelser. </p>
+            <p class="hvid">Fart er den største dræber i trafikken, og ulykkerne sker ofte ved de små hastighedsoverskridelser. </p>
         </div>
     </div>
 
@@ -119,40 +119,49 @@
             </div>
         </div>
 
-        <div class="containersoj">
+
+        <div id="containersojle">
             <svg id="barchart" viewbox="-20 -10 230 120">
+
                 <g id="linier">
-                    <line x1="0" y1="100" x2="0" y2="0"></line>
-                    <line x1="0" y1="100" x2="200" y2="100"></line>
-                    <line x1="0" y1="50" x2="200" y2="50"></line>
+
+                    <line x1="0" y1="100" x2="200" y2="100" />
+                    <line x1="0" y1="50" x2="200" y2="50" />
+                    <line x1="0" y1="0" x2="200" y2="0" />
 
                 </g>
-
-                <g id="textsoj">
-                    <text x="-7" y="100">0</text>
-                    <text x="-12" y="53">50</text>
-                    <text x="-16" y="5">100</text>
-                    <text x="13" y="107"></text>
-                    <text x="43" y="107"></text>
-                    <text x="73" y="107"></text>
+                <g id="text">
+                    <text x="-7" y="100">0 </text>
+                    <text x="-12" y="53">50 </text>
+                    <text x="-16" y="5">100 </text>
+                    <text x="13" y="107">Jan </text>
+                    <text x="43" y="107">Feb </text>
+                    <text x="73" y="107">Mar </text>
                 </g>
-
                 <g id="bars">
-                    <line id="soj1" x1="20" y1="100" x2="20" y2="50"></line>
-                    <line id="soj2" x1="50" y1="100" x2="50" y2="25"></line>
-                    <line id="soj3" x1="80" y1="100" x2="80" y2="10"></line>
+                    <line x1="20" y1="100" x2="20" y2="50" />
+                    <line x1="50" y1="100" x2="50" y2="25" />
+                    <line x1="80" y1="100" x2="80" y2="10" />
+                    <line x1="110" y1="100" x2="110" y2="10" />
+                    <line x1="140" y1="100" x2="140" y2="10" />
+                    <line x1="170" y1="100" x2="170" y2="10" />
                 </g>
 
-                <text x="100" y="45" id="dispp">0</text>
-                <div id="containerrsoj">
-                    <p class="txt1">•</p>
-                    <p>En bekendt var involveret i en fartulykke?</p>
-                    <p class="txt2">•</p>
-                    <p>Du selv var involveret i en fartulykke?</p>
-                    <p class="txt3">•</p>
-                    <p>Højere bøder for overskridelse af fartgrænsen?</p>
-                </div>
+                <text x="180" y="45" id="disp">50</text>
+
             </svg>
+
+            <div id="containerrsoj">
+                <p class="txt1">•</p>
+                <p>En bekendt var involveret i en fartulykke?</p>
+                <p class="txt2">•</p>
+                <p>Du selv var involveret i en fartulykke?</p>
+                <p class="txt3">•</p>
+                <p>Højere bøder for overskridelse af fartgrænsen?</p>
+            </div>
+
+
+
         </div>
 
     </section>

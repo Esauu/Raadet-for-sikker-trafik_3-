@@ -105,6 +105,7 @@ header .knapper {
     opacity: 0.5;
 }
 
+
 /** SPLASH TEKST ANIMATION **/
 
 .swipe {
@@ -210,27 +211,21 @@ header .knapper {
 
 
 #info3 {
-    display: flex;
     padding: 1rem 1rem 1rem 1rem;
     background-color: #EAEAEA;
-
-
-}
-
-#info3 #info3 .right {
-    flex-grow: 1;
 }
 
 #info3 .text {
-
     padding: 5px;
     max-width: 60em;
 }
 
 
 /*Gode råd diagrammer*/
+
+/*  KAGE   */
 .containerkage {
-    max-width: 50px;
+    max-width: 30em;
 
 }
 
@@ -266,7 +261,7 @@ header .knapper {
     stroke-dasharray: 1 314;
 }
 
-#text {
+.left #text {
     fill: white;
     font-size: 4px;
     font-family: sans-serif;
@@ -284,7 +279,27 @@ header .knapper {
     opacity: 0.5;
 }
 
+/* Søjle */
+#containersojle {
+    max-width: 30em;
+    border: 2px solid;
 
+}
+
+
+#linier {
+    stroke: #999;
+    stroke-width .5:
+}
+
+#text {
+    font-size: .6em;
+}
+
+#bars {
+    stroke: pink;
+    stroke-width: 20;
+}
 
 /*Gode råd diagrammer slut*/
 
