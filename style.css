@@ -283,6 +283,12 @@ header .knapper {
 
 /*Gode råd diagrammer slut*/
 
+.topKnap {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
 
 
 /**/
