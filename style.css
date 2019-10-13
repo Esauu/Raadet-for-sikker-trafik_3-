@@ -16,6 +16,12 @@ p {
     font-size: 20px;
 }
 
+p::selection {
+    background-color: #3f0;
+    color: #373d46;
+    text-shadow: none;
+}
+
 h1,
 h2 {
     font-family: safety;
