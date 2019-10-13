@@ -34,7 +34,7 @@ function animer() {
     })
 }
 
-const values1 = [23, 48, 87, 70, 14, 65]
+const values1 = [23, 48, 87, ]
 
 document.querySelectorAll("#bars line").forEach((bar, i) => {
 
