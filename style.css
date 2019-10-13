@@ -2,6 +2,7 @@ html {
     margin: 0 auto;
 }
 
+
 body {
     margin: 0 auto;
 }
@@ -70,9 +71,6 @@ header .knapper {
     background-color: #373D46;
     height: 50px;
     width: 100%;
-
-
-
 }
 
 .navigation_linje p {
@@ -91,19 +89,20 @@ header .knapper {
 #splash p {
     color: white;
     position: relative;
+    padding-left: 20px;
+    max-width: 600px;
+    font-size: 28px;
 
-    max-width: 400px;
 }
 
 #splash .boks {
     padding: 0.1rem 1rem 1rem 1rem;
-    position: relative;
-    top: -6rem;
-    left: 1rem;
+    position: absolute;
+    left 0;
+    top: 28em;
     background: black;
-    width: 70vw;
-    height: 10vw;
-    opacity: 0.5
+    max-width: 640px;
+    opacity: 0.5;
 }
 
 /** SPLASH TEKST ANIMATION **/
