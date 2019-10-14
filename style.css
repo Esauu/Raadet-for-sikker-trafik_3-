@@ -284,15 +284,19 @@ header .knapper {
     display: grid;
     grid-gap: 0px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 
 }
 
 #sojletekst {
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1f;
+    line-height: 2px;
+
+
+
+
 
 }
 
@@ -335,6 +339,14 @@ header .knapper {
     color: #00FF00;
     font-size: 3em;
     margin-top: 0;
+    grid-column: 1/ span 1;
+
+
+}
+
+.info {
+    grid-column: 2/ span 12;
+
 
 }
 
@@ -342,13 +354,27 @@ header .knapper {
     color: #28292C;
     font-size: 3em;
     margin-top: 0;
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
 
+}
+
+.info2 {
+    grid-column: 2/ span 12;
+    grid-row: 2/ span 2;
 }
 
 .txt3 {
     color: #305898;
     font-size: 3em;
     margin: 0;
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+}
+
+.info3 {
+    grid-column: 2/ span 12;
+    grid-row: 3/ span 1;
 }
 
 
