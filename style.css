@@ -86,23 +86,24 @@ header .knapper {
 }
 
 
+#splash .boks {
+    position: relative;
+    left 0;
+    top: -13em;
+    background: rgba(0, 0, 0, 0.7);
+    max-width: 45vw;
+}
+
 #splash p {
     color: white;
     position: relative;
-    padding-left: 20px;
-    max-width: 600px;
-    font-size: 28px;
-
-}
-
-#splash .boks {
-    padding: 0.1rem 1rem 1rem 1rem;
-    position: absolute;
-    left 0;
-    top: 28em;
-    background: black;
-    max-width: 640px;
-    opacity: 0.5;
+    padding-left: 45px;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    line-height: 1.2;
 }
 
 
@@ -120,6 +121,7 @@ header .knapper {
 
     to {
         left: 0.5rem;
+
     }
 }
 
@@ -413,12 +415,32 @@ footer {
         height: 60vh;
     }
 
-    #splash img {
-        height: 60vh;
-    }
+    #splash img {}
 
 }
 
 /*            DESKTOP              */
 
 @media screen and (min-width:960px) {}
+
+
+
+
+@media screen and (max-width:950px) {
+
+
+
+
+    #splash p {
+        font-size: 21px;
+        padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+
+    }
+    #splash .boks {
+    top: -11em;
+
+
+}
+}
