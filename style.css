@@ -14,7 +14,7 @@ img {
 p {
     font-family: safety;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p::selection {
@@ -283,10 +283,21 @@ header .knapper {
 
 /* Søjle */
 #containersojle {
-    max-width: 30em;
-    border: 2px solid;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 
 }
+
+#sojletekst {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
 
 
 #linier {
@@ -298,10 +309,57 @@ header .knapper {
     font-size: .6em;
 }
 
+#soj1 {
+    stroke: #00FF00;
+}
+
+#soj1:hover {
+    opacity: 0.5;
+}
+
+#soj2 {
+    stroke: #28292C;
+}
+
+#soj2:hover {
+    opacity: 0.5;
+}
+
+#soj3 {
+    stroke: #305898;
+}
+
+#soj3:hover {
+    opacity: 0.5;
+}
+
+.txt1 {
+    color: #00FF00;
+    font-size: 3em;
+    margin-top: 0;
+
+}
+
+.txt2 {
+    color: #28292C;
+    font-size: 3em;
+    margin-top: 0;
+
+}
+
+.txt3 {
+    color: #305898;
+    font-size: 3em;
+    margin: 0;
+}
+
+
 #bars {
     stroke: pink;
     stroke-width: 20;
 }
+
+
 
 /*Gode råd diagrammer slut*/
 
