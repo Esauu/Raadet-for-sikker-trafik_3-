@@ -40,6 +40,76 @@ h2 {
     font-weight: lighter;
 }
 
+/** BURGERMENU **/
+.hidden {
+    display: none;
+}
+
+#menu .hidden {
+    display: none;
+    transform: scale(0);
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: flex;
+    display: inline-block;
+    left: 75vw;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+}
+
+#menu {
+    position: relative;
+    list-style-type: none;
+    width: 100vw;
+    background-color: #373D46;
+    z-index: 1;
+}
+
+li {
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-family: safety;
+    cursor: pointer;
+}
+
+.burgermenu {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-family: safety;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
 
 header {
     background-color: #28292C;
@@ -56,6 +126,7 @@ header .logo {
 }
 
 
+/*
 header .knapper {
     position: relative;
     text-align: right;
@@ -63,9 +134,10 @@ header .knapper {
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 10px;
-    color: black;
+    color: white;
     top: -2rem
 }
+*/
 
 .navigation_linje {
     background-color: #373D46;
@@ -415,7 +487,22 @@ footer {
 
 /*            DESKTOP              */
 
-@media screen and (min-width:960px) {}
+@media screen and (min-width:960px) {
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+}
 
 
 
@@ -437,5 +524,16 @@ footer {
         top: -11em;
 
 
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .topnav {
+        display: none;
     }
 }

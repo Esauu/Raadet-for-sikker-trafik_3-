@@ -13,6 +13,7 @@ window.addEventListener("load", animer);
 
 
 function animer() {
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
     document.querySelectorAll("#diagramkage circle").forEach((cirkel, i) => {
         offset.push(values[i] + offset[i])
@@ -46,3 +47,23 @@ document.querySelectorAll("#bars line").forEach((bar, i) => {
         bar.setAttribute("data-value", values1[i])
     })
 })
+
+
+/** BURGERMENU **/
+
+function sidenVises() {
+    console.log("sidenVises");
+
+}
+
+function toggleMenu() {
+    console.log("toggleMenu");
+    document.querySelector("#menu").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
+    } else {
+        document.querySelector("#menuknap").textContent = "X";
+    }
+}
