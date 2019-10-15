@@ -150,14 +150,16 @@ header .logo {
     width: 100%;
 }
 
-.navigation_linje p {
+.navigation_linje a {
     position: absolute;
     left: 1em;
     top: 5.1em;
     color: #FFFFFF;
     line-height: ;
     font-size: 0.92rem;
-    font-weight: 350
+    font-weight: 350;
+    font-family: safety;
+    text-decoration: none;
 
 
 }
