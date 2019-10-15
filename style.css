@@ -90,11 +90,13 @@ h2 {
 
 .topnav {
     overflow: hidden;
-    justify-content: flex-end;
+    justify-content: center;
     display: flex;
     position: relative;
     top: -2.4em;
-    right: 10vw;
+    text-align: center;
+    margin-left: 13vw;
+
 
 }
 
@@ -103,12 +105,14 @@ h2 {
     font-family: safety;
     float: left;
     color: lightgray;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    text-align: center;
+
+
 
 }
 
