@@ -12,9 +12,13 @@ img {
 }
 
 p {
-    font-family: safety;
+font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    word-spacing: 0.01em;
+
 }
 
 p::selection {
@@ -32,6 +36,11 @@ h1::selection {
 
 h1,
 h2 {
+    font-family: safety;
+    font-weight: lighter;
+}
+
+h3 {
     font-family: safety;
     font-weight: lighter;
 }
@@ -184,7 +193,7 @@ header .logo {
     max-width: 45vw;
 }
 
-#splash p {
+#splash h3 {
     color: white;
     position: relative;
     padding-left: 45px;
@@ -292,7 +301,6 @@ header .logo {
 
 .kampagnebrod {
     padding: 0.5rem 1rem 0rem 1rem;
-    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     margin-top: 0em;
 
@@ -737,7 +745,7 @@ a {
 
 
 
-    #splash p {
+    #splash h3 {
         font-size: 20px;
         padding-top: 24px;
         padding-bottom: 24px;
