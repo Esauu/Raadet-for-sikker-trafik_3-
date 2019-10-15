@@ -23,6 +23,13 @@ p::selection {
     text-shadow: none;
 }
 
+
+h1::selection {
+    background-color: #3f0;
+    color: #373d46;
+    text-shadow: none;
+}
+
 h1,
 h2 {
     font-family: safety;
@@ -266,7 +273,7 @@ header .logo {
     color: white;
 }
 
-#info2 h2 {
+#info2 h1 {
     margin-top: 0;
     color: white;
 
@@ -710,7 +717,19 @@ a {
     #menu li {
         display: inline-block;
     }
+        header .logo {
+    height: 50px;
+    width: 245px;
+    left: 3rem;
 
+}
+
+.navigation_linje a {
+    left: 4rem;
+
+
+
+}
 
 }
 
@@ -728,7 +747,7 @@ a {
         padding-bottom: 24px;
         padding-right: 20px;
         padding-left: 25px;
-        =======font-size: 21px;
+        font-size: 21px;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-right: 20px;
@@ -737,10 +756,11 @@ a {
 
     #splash .boks {
         top: -9.5em;
-        =======top: -11em;
+        top: -11em;
 
 
     }
+
 }
 
 
@@ -754,4 +774,5 @@ a {
 
 
     }
+
 }
