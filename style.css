@@ -500,11 +500,105 @@ header .logo {
 
 /**/
 
-footer {
-    width: auto;
-    height: 160px;
-    background-color: #373D46;
+html {
+    font-size: 0.625rem;
+    color: white;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+/** FOOTER CSS **/
+
+#blank {
+    color: #999;
+}
+
+.up img {
+    color: white;
+    height: 40px;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    width: 25px;
+    margin: auto;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #373D46;
+    padding: 2rem 0;
+
+    /*Gør at footer er fastlåst på siden, og man hele tiden kan se den*/
+    position: relative;
+}
+
+.up {
+    /*position: absolut; Et element med position: absolut; er placeret i forhold til nærmeste placerede forfader (i stedet for placeret i forhold til visningsporten, som fast). Imidlertid; Hvis et absolut positioneret element ikke har nogen positionerede forfædre, bruger det dokumentets krop og bevæger sig sammen med siderulle.*/
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: beating 3s infinite;
+
+}
+
+.up img {
+    color: white;
+    height: 40px;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    width: 25px;
+    margin: auto;
+}
+
+.copyright p {
+    font-size: 1.4rem;
+}
+
+.fl3x {
+    display: flex;
+    justify-content: center;
+}
+
+.fl3x p {
+    margin: 10px;
+}
+
+/** FOOTER ANIMATION CSS **/
+
+/*Animationen vokser i farve fra 0% -> 70% -> 100%*/
+
+@keyframes beating {
+    0% {
+        box-shadow: 0 0 0 0 #00ff00;
+    }
+
+    70% {
+        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    }
+}
+
+/** FOOTER CSS SLUT **/
+
 
 
 /*             TAPLET          */
