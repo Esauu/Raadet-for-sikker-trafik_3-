@@ -209,6 +209,8 @@ header .logo {
 }
 
 
+#video {}
+
 #info1 {
     padding-left: 1rem;
     max-width: 100em;
@@ -273,10 +275,19 @@ header .logo {
 
 
 .kampagne {
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0rem 1rem;
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0em;
 
+
+}
+
+.kampagnebrod {
+    padding: 0.5rem 1rem 0rem 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0em;
 
 }
 
@@ -502,15 +513,17 @@ footer {
     #splash {
         display: block;
         width: 100%;
-        height: 40vw;
+        height: 39vw;
+
     }
 
     #splash img {}
 
     .gridinfo {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        margin-bottom: 15px;
     }
 
     .gridinfo h1 {
@@ -531,8 +544,11 @@ footer {
     }
 
     .kampagne {
-        padding-bottom: 15px
+        padding-top: 15px;
+        margin-top: 0;
+
     }
+
 
 
     #disp {
