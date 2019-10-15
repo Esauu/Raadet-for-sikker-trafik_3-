@@ -622,13 +622,10 @@ footer {
 
     #menu li {
         display: inline-block;
-    }
-        header .logo {
-    height: 50px;
-    width: 245px;
-    left: 3rem;
 
 }
+
+
 
 .navigation_linje a {
     left: 4rem;
@@ -665,7 +662,9 @@ footer {
         top: -11em;
 
 
-    }
+
+}
+
 
 }
 
@@ -681,4 +680,16 @@ footer {
 
     }
 
+
+}
+
+
+
+@media screen and (min-width:1010px) {
+
+               header .logo {
+    height: 50px;
+    width: 245px;
+    left: 3rem;
+}
 }
