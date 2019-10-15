@@ -294,7 +294,7 @@ header .logo {
 
 
 #SoMe_kampagne {
-    background: darkgreen;
+    background: white;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
@@ -549,6 +549,15 @@ footer {
 
     }
 
+    .somebilled {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sometekst p {
+        margin-top: 0px;
+    }
+
 
 
     #disp {
@@ -650,5 +659,5 @@ footer {
         display: none;
 
 
-}
+    }
 }
