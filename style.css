@@ -554,7 +554,7 @@ a {
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #eee;
+    background-color: white;
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
@@ -717,19 +717,20 @@ a {
     #menu li {
         display: inline-block;
     }
-        header .logo {
-    height: 50px;
-    width: 245px;
-    left: 3rem;
 
-}
+    header .logo {
+        height: 50px;
+        width: 245px;
+        left: 3rem;
 
-.navigation_linje a {
-    left: 4rem;
+    }
+
+    .navigation_linje a {
+        left: 4rem;
 
 
 
-}
+    }
 
 }
 
