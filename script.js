@@ -27,7 +27,7 @@ function animer() {
         bar.setAttribute("y2", 100 - values[i]);
         bar.addEventListener("mouseover", e => {
 
-            document.querySelector("#disp").textContent = values[i] + " Dræbte";
+            document.querySelector("#disp").textContent = values[i] + " ";
 
             bar.setAttribute("data-value", values[i])
 

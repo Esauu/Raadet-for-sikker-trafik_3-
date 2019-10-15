@@ -354,9 +354,11 @@ header .logo {
 }
 
 #disp {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: safety;
-    padding: 29vw;
+
+
+
 }
 
 #stk2 {
@@ -566,15 +568,6 @@ footer {
     }
 
 
-
-    #disp {
-        font-size: 3em;
-        font-family: safety;
-        padding: 9vw;
-        margin: 0;
-    }
-
-
     #info3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -623,19 +616,20 @@ footer {
     #menu li {
         display: inline-block;
     }
-        header .logo {
-    height: 50px;
-    width: 245px;
-    left: 3rem;
 
-}
+    header .logo {
+        height: 50px;
+        width: 245px;
+        left: 3rem;
 
-.navigation_linje a {
-    left: 4rem;
+    }
+
+    .navigation_linje a {
+        left: 4rem;
 
 
 
-}
+    }
 
 }
 
