@@ -42,7 +42,7 @@ document.querySelectorAll("#bars line").forEach((bar, i) => {
     bar.setAttribute("y2", 100 - values1[i])
     bar.addEventListener("mouseover", e => {
 
-        document.querySelector("#dispp").textContent = values1[i];
+        document.querySelector("#dispp").textContent = values1[i] + "%";
 
         bar.setAttribute("data-value", values1[i])
     })
