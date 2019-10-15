@@ -53,14 +53,11 @@ h2 {
 }
 
 #menuknap {
-    display: flex;
-    display: inline-block;
-    left: 75vw;
     font-size: 1.5rem;
     cursor: pointer;
     color: white;
     margin-right: 15px;
-    margin-top: -40px;
+    margin-top: -39px;
 }
 
 #menu {
@@ -96,8 +93,8 @@ h2 {
     justify-content: flex-end;
     display: flex;
     position: relative;
-    top: -2vw;
-
+    top: -2.4em;
+    right: 10vw;
 
 }
 
@@ -105,48 +102,59 @@ h2 {
 .topnav a {
     font-family: safety;
     float: left;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     justify-content: center;
     display: flex;
+
 }
 
 
 
+.topnav a:hover {
+    color: white;
 
+}
 
 
 
 
 header {
+    position: fixed;
+    width: 100%;
     background-color: #28292C;
-    height: 60px;
+    height: 70px;
+    z-index: 1;
 }
 
 /*FIND DET HVIDE LOGO*/
 header .logo {
-    height: 30px;
-    width: 180px;
+    height: 50px;
+    width: 235px;
     position: relative;
-    top: 1em;
+    top: 0.8em;
     left: 1rem;
 }
 
 
 .navigation_linje {
     background-color: #373D46;
-    height: 50px;
+    height: 130px;
     width: 100%;
 }
 
 .navigation_linje p {
     position: absolute;
     left: 1em;
+    top: 5.1em;
     color: #FFFFFF;
-    line-height: 1.4;
+    line-height: ;
+    font-size: 0.92rem;
+    font-weight: 350
+
 
 }
 
@@ -618,5 +626,7 @@ footer {
 @media only screen and (max-width: 960px) {
     .topnav {
         display: none;
-    }
+
+
+}
 }
