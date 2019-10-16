@@ -44,7 +44,7 @@
     <div class="navigation_linje">
         <a href="https://www.sikkertrafik.dk/kampagner">⟵ Er der en konsekvens når det går for stærkt?</a>
     </div>
-    <div id="splash"> <img src="img/splash_desk.png">
+    <div id="splash"> <img src="img/splash_desk.png" alt="spalsh">
         <div class="boks swipe">
             <h3 class="hvid">Fart er den største dræber i trafikken, og ulykkerne sker ofte ved de små hastighedsoverskridelser. </h3>
         </div>
@@ -56,7 +56,7 @@
     <section id="video">
         <h1 class="kampagne">Se kampange videon - Hvornår er fart godt?</h1>
 
-        <p class="kampagnebrod">Se Mads falde i en dug lige her</p>
+        <p class="kampagnebrod">Kampagne videoen - Skynd dig langsomgt</p>
 
         <!--
         <video class="player" width="340" height="300" controls>
@@ -64,7 +64,7 @@
         </video>
 -->
         <div class="player">
-            <iframe width="850" height="550" src="https://www.youtube.com/embed/Q6kkgEtb4-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <iframe width="880" height="550" src="https://www.youtube.com/embed/Q6kkgEtb4-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </section>
 
 
@@ -130,70 +130,78 @@
                 <img src="img/iphone-face.png" alt="billed">
             </div>
         </div>
-        <p>Det materiale vi bruger i vores SoMe kampagner er udklip fra vores kampagne video. De udvalgte klip er valgt med tanken om blikfang og at fange målgruppens interesse og opmærksomhed så chancer er større for at de trykker på opslaget. Det har vi gjort med brugen af emojis, catchy overskift og bullet points. I begge opslag tilbyder vi mere til brugeren, hvis brugeren trykker på vores link kan de gå ind og teste hvor meget/lidt tid de sparre ved at køre 20% hurtigere.</p>
+        <div class="gridbrodsome">
+            <p>Det materiale vi bruger i vores SoMe kampagner er udklip fra vores kampagne video. De udvalgte klip er valgt med tanken om blikfang og at fange målgruppens interesse og opmærksomhed så chancerne er større for at de trykker på opslaget.</p>
+            <p> Det har vi gjort med brugen af emojis, catchy overskift og bullet points. I begge opslag tilbyder vi mere til brugeren, hvis brugeren trykker på vores link kan de gå ind og teste hvor meget/lidt tid de sparre ved at køre 20% hurtigere.</p>
+        </div>
     </section>
+
+
 
     <section id="info3">
 
+        <h1 class="h1info3">Gode råd</h1>
 
-        <div class=text>
-            <h1>Gode råd</h1>
-            <p>Det kan være svært at sige fra, i sær når gruppedynamikken er i gang, men tænkt på konsekvenserne ved at køre for hurtigt. En god ide er enten at tage en snak med en ven, der kører for hurtigt, eller stille dig selv spørgsmålet “Hvorfor gør jeg det?”. Og se hvad du egentligt for ud af at køre for hurtigt.
-            </p>
-        </div>
+        <div class="gridinfo3">
+            <div class=text>
 
-
-        <div class="containerkage">
-
-            <svg id="diagramkage" viewbox="0 0 100 100">
-
-                <circle id="stk1" cx="50" cy="50" r="50"></circle>
-                <circle id="stk2" cx="50" cy="50" r="50"></circle>
-                <circle id="stk3" cx="50" cy="50" r="50"></circle>
-
-                <g id="text">
-                    <text class="t1" x="80" y="60">Motorvej</text>
-                    <text class="t2" x="13" y="65">Landevej inkl. Motortrafikvej</text>
-                    <text class="t2" x="53" y="30">Byvej</text>
-
-                </g>
+                <p>Det kan være svært at sige fra, i sær når gruppedynamikken er i gang, men tænkt på konsekvenserne ved at køre for hurtigt. En god ide er enten at tage en snak med en ven, der kører for hurtigt, eller stille dig selv spørgsmålet “Hvorfor gør jeg det?”. Og se hvad du egentligt for ud af at køre for hurtigt.
+                </p>
+            </div>
 
 
+            <div class="containerkage">
 
-            </svg>
-            <text x="75" y="45" id="disp">0 ✝</text>
+                <svg id="diagramkage" viewbox="0 0 100 100">
 
-        </div>
+                    <circle id="stk1" cx="50" cy="50" r="50"></circle>
+                    <circle id="stk2" cx="50" cy="50" r="50"></circle>
+                    <circle id="stk3" cx="50" cy="50" r="50"></circle>
+
+                    <g id="text">
+                        <text class="t1" x="80" y="60">Motorvej</text>
+                        <text class="t2" x="13" y="65">Landevej inkl. Motortrafikvej</text>
+                        <text class="t2" x="53" y="30">Byvej</text>
+
+                    </g>
 
 
 
-        <div id="containersojle">
-            <svg id="barchart" viewbox="-20 -10 230 120">
+                </svg>
+                <text x="75" y="45" id="disp">0 ✝</text>
 
-                <g id="linier">
+            </div>
 
-                    <line x1="0" y1="100" x2="200" y2="100" />
-                    <line x1="0" y1="50" x2="200" y2="50" />
-                    <line x1="0" y1="0" x2="200" y2="0" />
 
-                </g>
-                <g id="text">
-                    <text x="-7" y="100">0 </text>
-                    <text x="-12" y="53">50 </text>
-                    <text x="-16" y="5">100 </text>
-                    <text x="9" y="107"></text>
-                    <text x="43" y="107"></text>
-                    <text x="73" y="107"></text>
-                </g>
-                <g id="bars">
-                    <line id="soj1" x1="20" y1="100" x2="20" y2="50"></line>
-                    <line id="soj2" x1="50" y1="100" x2="50" y2="25"></line>
-                    <line id="soj3" x1="80" y1="100" x2="80" y2="10"></line>
-                </g>
 
-                <text x="180" y="45" id="dispp">0</text>
+            <div id="containersojle">
+                <svg id="barchart" viewbox="-20 -10 230 120">
 
-            </svg>
+                    <g id="linier">
+
+                        <line x1="0" y1="100" x2="200" y2="100" />
+                        <line x1="0" y1="50" x2="200" y2="50" />
+                        <line x1="0" y1="0" x2="200" y2="0" />
+
+                    </g>
+                    <g id="text">
+                        <text x="-7" y="100">0 </text>
+                        <text x="-12" y="53">50 </text>
+                        <text x="-16" y="5">100 </text>
+                        <text x="9" y="107"></text>
+                        <text x="43" y="107"></text>
+                        <text x="73" y="107"></text>
+                    </g>
+                    <g id="bars">
+                        <line id="soj1" x1="20" y1="100" x2="20" y2="50"></line>
+                        <line id="soj2" x1="50" y1="100" x2="50" y2="25"></line>
+                        <line id="soj3" x1="80" y1="100" x2="80" y2="10"></line>
+                    </g>
+
+                    <text x="180" y="45" id="dispp">0</text>
+
+                </svg>
+            </div>
 
             <div id="sojletekst">
                 <p class="txt1">•</p>
