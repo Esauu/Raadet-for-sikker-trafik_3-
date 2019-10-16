@@ -753,6 +753,79 @@ a {
 
     .kampagnebrod {}
 
+
+
+
+
+    #SoMe_kampagne {
+        background: white;
+        padding-left: 11rem;
+        padding-right: 11rem;
+        padding-top: 1rem;
+
+    }
+
+
+
+    #SoMe_kampagne h1 {
+        padding-bottom: 1rem;
+        margin: 0;
+        padding-left: 0.5em;
+    }
+
+    #SoMe_kampagne p {
+        padding-left: 0.5em;
+        font-size: 1.5rem;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+    }
+
+    #SoMe_kampagne img {
+        width: 30vw;
+        height: 45vw;
+    }
+
+    .somebillede {
+        padding-left: 11em;
+        padding-right: 11em;
+    }
+
+    #info3 {
+        padding-left: 11em;
+        padding-right: 11em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #info3 .text p {
+        font-size: 1.5rem;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+
+    }
+
+    #info3 .text {
+        display: grid;
+        grid-row: 1/ span 4;
+    }
+
+    #info3 .cointainerkage {
+        display: grid;
+        grid-row: 2/ span 4;
+    }
+
+    #info3 .containersojle {
+        display: grid;
+        grid-row: 1/ span 4;
+    }
+
+    #info3 .sojletekst {
+        display: grid;
+        grid-row: 2/ span 4;
+    }
 }
 
 
