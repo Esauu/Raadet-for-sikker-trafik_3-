@@ -735,6 +735,40 @@ a {
 
 
     }
+    #video {
+    background-color: lightgray;
+    padding-top: 60px;
+    padding-bottom: 100px;
+ display: grid;
+   grid-template-columns: 70px 80px 80px 70px;
+  grid-template-rows: 13% 50px auto;
+    justify-content: center;
+}
+
+#video .player {
+    grid-column-start: 1;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+
+
+}
+.kampagne {
+     grid-column-start: 1;
+  grid-column-end: six;
+  grid-row-start: row1-start;
+  grid-row-end: 1;
+
+
+}
+
+.kampagnebrod {
+      grid-column-start: 1;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 2;
+
+}
 
 }
 
