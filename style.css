@@ -747,12 +747,85 @@ a {
 
     }
 
-    #video .player {}
+    .kampagne {
+        padding-top: 1.5em;
+        font-size: 4.5em;
+    }
 
-    .kampagne {}
+    .kampagnebrod {
+        font-size: 2.5em;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 
-    .kampagnebrod {}
+    #video .player {
+        height: 680px;
+        width: 1280px;
+        padding-bottom: 7em;
+    }
 
+
+    #info1 {
+        padding-left: 11em;
+        padding-right: 11em;
+    }
+
+    .gridinfo {
+        padding-right: 11em;
+        padding-top: 2em;
+        margin-bottom: 0;
+
+    }
+
+    .gridinfo h1 {
+        font-size: 4.5em;
+        margin-bottom: 20px;
+    }
+
+    .gridinfo p {
+        font-size: 2.5em;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+    }
+
+
+    .SoMe {
+        position: relative;
+        top: -20.5em;
+        left: 80em;
+    }
+
+    .SoMe img {
+        height: 4em;
+        width: 4em;
+        margin: 7px;
+    }
+
+}
+
+#info2 {
+    padding-left: 11em;
+    padding-right: 11em;
+}
+
+.gridinfo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+}
+
+#info2 h1 {
+    font-size: 4.5em;
+    padding-top: 1em;
+}
+
+#info2 p {
+    font-size: 1.7em;
+    line-height: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    margin: 0;
 }
 
 
