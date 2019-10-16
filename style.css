@@ -172,7 +172,6 @@ header .logo {
     left: 1em;
     top: 6em;
     color: #FFFFFF;
-    line-height: ;
     font-size: 0.92rem;
     font-weight: 350;
     font-family: safety;
@@ -188,7 +187,7 @@ header .logo {
 
 #splash .boks {
     position: relative;
-    left 0;
+    left: 0;
     top: -13em;
     background: rgba(0, 0, 0, 0.7);
     max-width: 45vw;
@@ -422,7 +421,7 @@ header .logo {
 
 #linier {
     stroke: #999;
-    stroke-width .5:
+    stroke-width: .5:
 }
 
 #text {
@@ -749,18 +748,18 @@ a {
 
     .kampagne {
         padding-top: 1.5em;
-        font-size: 4.5em;
+        font-size: 3em;
     }
 
     .kampagnebrod {
-        font-size: 2.5em;
+        font-size: 2em;
         padding-top: 35px;
         padding-bottom: 35px;
     }
 
     #video .player {
-        height: 680px;
-        width: 1280px;
+        height: 550px;
+        width: 850px;
         padding-bottom: 7em;
     }
 
@@ -778,12 +777,12 @@ a {
     }
 
     .gridinfo h1 {
-        font-size: 4.5em;
+        font-size: 3em;
         margin-bottom: 20px;
     }
 
     .gridinfo p {
-        font-size: 2.5em;
+        font-size: 1.5em;
         line-height: inherit;
         letter-spacing: inherit;
         word-spacing: inherit;
@@ -793,7 +792,7 @@ a {
     .SoMe {
         position: relative;
         top: -20.5em;
-        left: 80em;
+        left: 8em;
     }
 
     .SoMe img {
@@ -802,102 +801,113 @@ a {
         margin: 7px;
     }
 
+
+
+    #info2 {
+        padding-left: 11em;
+        padding-right: 11em;
+    }
+
+    .gridinfo2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    #info2 h1 {
+        font-size: 3em;
+        padding-top: 1em;
+    }
+
+    #info2 p {
+        font-size: 1.2em;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+        margin: 0;
+    }
+
+    #SoMe_kampagne {
+        background: white;
+        padding-left: 11rem;
+        padding-right: 11rem;
+        padding-top: 1rem;
+
+    }
+
+
+
+    #SoMe_kampagne h1 {
+        padding-bottom: 1rem;
+        margin: 0;
+        padding-left: 0.5em;
+    }
+
+    #SoMe_kampagne p {
+        padding-left: 0.5em;
+        font-size: 1.5rem;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+    }
+
+    #SoMe_kampagne img {
+        width: 30vw;
+        height: 45vw;
+    }
+
+    .somebillede {
+        padding-left: 11em;
+        padding-right: 11em;
+    }
+
+    #info3 {
+        padding-left: 11em;
+        padding-right: 11em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #info3 .text p {
+        font-size: 1.5rem;
+        line-height: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+
+    }
+
+    #info3 .text {
+        display: grid;
+        grid-row: 1/ span 4;
+    }
+
+    #info3 .cointainerkage {
+        display: grid;
+        grid-row: 2/ span 4;
+    }
+
+    #info3 .containersojle {
+        display: grid;
+        grid-row: 1/ span 4;
+    }
+
+    #info3 .sojletekst {
+        display: grid;
+        grid-row: 2/ span 4;
+    }
 }
 
-#info2 {
-    padding-left: 11em;
-    padding-right: 11em;
-}
-
-.gridinfo2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3em;
-}
-
-#info2 h1 {
-    font-size: 4.5em;
-    padding-top: 1em;
-}
-
-#info2 p {
-    font-size: 1.7em;
-    line-height: inherit;
-    letter-spacing: inherit;
-    word-spacing: inherit;
-    margin: 0;
-}
-
-#SoMe_kampagne {
-    background: white;
-    padding-left: 11rem;
-    padding-right: 11rem;
-    padding-top: 1rem;
-
 }
 
 
 
-#SoMe_kampagne h1 {
-    padding-bottom: 1rem;
-    margin: 0;
-    padding-left: 0.5em;
-}
 
-#SoMe_kampagne p {
-    padding-left: 0.5em;
-    font-size: 1.5rem;
-    line-height: inherit;
-    letter-spacing: inherit;
-    word-spacing: inherit;
-}
 
-#SoMe_kampagne img {
-    width: 30vw;
-    height: 45vw;
-}
 
-.somebillede {
-    padding-left: 11em;
-    padding-right: 11em;
-}
 
-#info3 {
-    padding-left: 11em;
-    padding-right: 11em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
 
-#info3 .text p {
-    font-size: 1.5rem;
-    line-height: inherit;
-    letter-spacing: inherit;
-    word-spacing: inherit;
 
-}
-
-#info3 .text {
-    display: grid;
-    grid-row: 1/ span 4;
-}
-
-#info3 .cointainerkage {
-    display: grid;
-    grid-row: 2/ span 4;
-}
-
-#info3 .containersojle {
-    display: grid;
-    grid-row: 1/ span 4;
-}
-
-#info3 .sojletekst {
-    display: grid;
-    grid-row: 2/ span 4;
-}
-}
 
 
 
